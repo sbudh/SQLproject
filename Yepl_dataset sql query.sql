@@ -1,3 +1,5 @@
+Data Scientist Role Play: Profiling and Analyzing the Yelp Dataset 
+Coursera
 --1. Profile the data by finding the total number of records for each of the tables below:
 Select count(*) from business;
 select count(*) from hours;
