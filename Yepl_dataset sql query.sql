@@ -1,8 +1,6 @@
 --1. Profile the data by finding the total number of records for each of the tables below:
 Select count(*) from business;
---1000
 select count(*) from hours;
---10000
 select count(*) from checkin;
 select count(*) from photo;
 select count(*) from tip;
