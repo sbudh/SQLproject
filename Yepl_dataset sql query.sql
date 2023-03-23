@@ -37,19 +37,6 @@ ix. User = 10000
 x. Friend = 11, 9415
 xi. Elite_years = 2780
 
-
-select count(*) from(select distinct id,business_id from business) as ds;
-select count(distinct business_id) from hours;
-select count(distinct business_id) from checkin;
-select count(*) from(select distinct id,business_id from photo)as ph;
-select count(*) from(select distinct user_id, business_id from tip) as ti;
-select count(*) from(select distinct id,business_id,user_id from review) as rv;
-select count(distinct business_id) from attribute;
-select count(distinct business_id) from category;
-select count(*)(select distinct user_id from elite_years) as ey;
-select count(*) (selet distinct user_id, friend_id from friend) as fr;
-select count(distinct id) from user;
-
 --3. Are there any columns with null values in the Users table? Indicate "yes," or "no."
 Select * from users
 where id IS NULL;
